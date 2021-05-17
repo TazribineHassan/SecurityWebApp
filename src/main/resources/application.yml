@@ -1,0 +1,16 @@
+# MySql Configuration
+jwt:
+  secret: 'Nb8c^v@]%0RNzO>Cnj?F%T;2sCunJ!k5@^CcC`m,@>yC)6*x~m$.6`rXh7bxqoV'
+
+server:
+  port: 8080
+
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/security
+    password:
+    username: root
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update

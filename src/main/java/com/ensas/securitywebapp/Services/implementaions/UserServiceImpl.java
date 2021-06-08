@@ -11,7 +11,6 @@ import com.ensas.securitywebapp.exceptions.domain.EmailNotFoundException;
 import com.ensas.securitywebapp.exceptions.domain.UserExistExistException;
 import com.ensas.securitywebapp.exceptions.domain.UserNotFoundException;
 import com.ensas.securitywebapp.repositories.UserRepository;
-import javassist.bytecode.MethodParametersAttribute;
 import org.apache.commons.lang.RandomStringUtils;
 import org.apache.commons.lang.StringUtils;
 import org.slf4j.Logger;
@@ -28,7 +27,6 @@ import org.springframework.web.multipart.MultipartFile;
 import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 
 import javax.mail.MessagingException;
-import javax.xml.crypto.Data;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
@@ -36,10 +34,9 @@ import java.nio.file.Paths;
 import java.util.Date;
 import java.util.List;
 import java.util.Locale;
-import java.util.concurrent.ExecutionException;
 
 import static com.ensas.securitywebapp.constant.FileConstant.*;
-import static com.ensas.securitywebapp.constant.UserImplemenntationConstant.*;
+import static com.ensas.securitywebapp.constant.UserImplementationConstant.*;
 import static com.ensas.securitywebapp.enumeration.Role.ROLE_USER;
 import static java.nio.file.StandardCopyOption.REPLACE_EXISTING;
 

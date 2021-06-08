@@ -1,6 +1,6 @@
 package com.ensas.securitywebapp.constant;
 
-public class UserImplemenntationConstant {
+public class UserImplementationConstant {
     public static final String USERNAME_IS_ALREADY_EXIST = "The username is already exist";
     public static final String EMAIL_IS_ALREADY_EXIST = "The email is already exist";
     public static final String NO_USER_FOUND_BY_USERNAME = "No user found by username ";
